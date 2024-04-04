@@ -1,4 +1,3 @@
- --Assignment
   --1. Average sales in the 1980s, 1990s, 2000s, 2010
   SELECT 
 		AVG (CASE WHEN Year BETWEEN 1980 AND 1989 THEN Global_Sales ELSE 0 END) AS '80s_Sales',
